@@ -242,12 +242,12 @@ body {
 }
 
 .card {
+	border-radius: 20px;
 	position: relative;
 	padding: 20px 0;
 	width: 100%;
-	background: #fff;
-	border-radius: 3px;
-	box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+	background: #2c2e31;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 	overflow: hidden;
 	text-align: center;
 	z-index: 5
@@ -267,7 +267,7 @@ body {
 
 .card_photo {
 	position: relative;
-	background: #fff;
+	background: #ff0;
 	padding: 5px;
 	width: 190px;
 	height: 190px;
@@ -288,7 +288,7 @@ body {
 }
 
 .card_value {
-	color: #2c2e31;
+	color: #ff0;
 	font-size: 38px;
 	margin: 5px;
 	text-transform: capitalize
@@ -296,6 +296,7 @@ body {
 
 .card ul {
   list-style-type: none;
+  color: #999;
 }
 
 .card li {
@@ -326,7 +327,7 @@ body {
 
 .circle svg {
   fill: none;
-  stroke: #8a3ab9;
+  stroke: #000;
   stroke-linecap: round;
   stroke-width: 3;
   stroke-dasharray: 1;
@@ -342,11 +343,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke: #8a3ab9;
+    stroke: #000;
     stroke-dasharray: 1;
   }
   to {
-    stroke: #cd486b;
+    stroke: #999;
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }

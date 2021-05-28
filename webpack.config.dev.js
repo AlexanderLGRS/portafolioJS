@@ -78,7 +78,7 @@ module.exports = {
             ]
         }),
         new DotEnv(),
-        new BundleAnalyzerPlugin(),
+        // new BundleAnalyzerPlugin(),
     ],
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
